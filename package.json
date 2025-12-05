@@ -4,8 +4,8 @@
     "description": "Java Skill Assessment Tool - Assess Java skills in minutes",
     "main": "server.js",
     "scripts": {
-        "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-        "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+        "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+        "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
         "start": "node server.js",
         "railway-build": "npm run build"
     },
